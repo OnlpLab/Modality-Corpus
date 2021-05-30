@@ -10,8 +10,8 @@ Our experiments used a subset of the GME annotations (specifically: modal trigge
 
 
 ## Terms of Use [one of these or something else?]
--- By downloading the data on this page the user acknowledges that their use will be restricted to research and/or academic purposes only.
--- Resources on this page are licensed CC-BY 4.0, a Creative Commons license requiring Attribution (https://creativecommons.org/licenses/by/4.0/).
+- By downloading the data on this page the user acknowledges that their use will be restricted to research and/or academic purposes only.
+- Resources on this page are licensed CC-BY 4.0, a Creative Commons license requiring Attribution (https://creativecommons.org/licenses/by/4.0/).
 
 ## Citation information
 ```
