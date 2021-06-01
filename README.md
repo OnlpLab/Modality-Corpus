@@ -9,11 +9,12 @@ Prior to downloading our data, you are required to first obtain access to the MP
 Our experiments used a subset of the GME annotations (specifically: modal triggers, associated propositional spans, and modal senses), pre-processed into the CoNLL-formatted file provided in this repository.
 
 
-## Terms of Use [one of these or something else?]
+## Terms of Use
+- By downloading the data on this page the user acknowledges that they have obtained access to the MPQA Corpus.
 - By downloading the data on this page the user acknowledges that their use will be restricted to research and/or academic purposes only.
 - Resources on this page are licensed CC-BY 4.0, a Creative Commons license requiring Attribution (https://creativecommons.org/licenses/by/4.0/).
 
-## Citation information
+## Citation Information
 ```
 @InProceedings{pyatkin2021modality,
   author    = {Pyatkin, Valentina and Sadde, Shoval and Rubinstein, Aynat and Portner, Paul and Tsarfaty, Reut},
