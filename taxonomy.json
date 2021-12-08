@@ -2,7 +2,7 @@
   "binary_classification": {
     "modal": {
       "description": "Modality is the linguistic ability to describe alternative ways the world could be, namely events with added information such as how desirable, plausible, or feasible they are.",
-      "in_paper": "Modality",
+      "label": "modal",
       "parent": null,
       "examples": [
         "We ought to present a paper at ACL’21.",
@@ -11,7 +11,7 @@
     },
     "not_modal": {
       "description": "Events that one can tell (for sure) by the utterance if they happen(ed) or not.",
-      "in_paper": null,
+      "label": "O",
       "parent": null,
       "examples": [
         "We presented a paper at ACL’19",
@@ -22,7 +22,7 @@
   "coarse_grained": {
     "priority": {
       "description": "Priority marks a perspective where events are prioritized, or considered “good” by the speaker (or more generally, by a relevant attitude holder) (Portner, 2009). ",
-      "in_paper": "Priority",
+      "label": "priority",
       "parent": "modal",
       "examples": [
         "Devaluation has been necessary",
@@ -33,7 +33,7 @@
     },
     "plausibility": {
       "description": "Plausibility has to do with events that are expected to happen or not happen, given a relevant set of assumptions which are made explicit.",
-      "in_paper": "Plausibility",
+      "label": "plausibility",
       "parent": "modal",
       "examples": [
         "there is little I can do",
@@ -45,7 +45,7 @@
   "fine_grained": {
     "deontic": {
       "description": "Events that are normatively obliged or commendable.",
-      "in_paper": "Rules and Norms",
+      "label": "rules",
       "parent": "priority",
       "examples": [
         "We should remain calm",
@@ -55,7 +55,7 @@
     },
     "bouletic": {
       "description": "Events that are desirable, as a matter of personal taste or preference.",
-      "in_paper": "Desires and Wishes",
+      "label": "intentional",
       "parent": "priority",
       "examples": [
         "Our agency prefers this equipment",
@@ -66,7 +66,7 @@
     },
     "teleological": {
       "description": "Events that convey a goal or intentions.",
-      "in_paper": "Plans and Goals",
+      "label": "intentional",
       "parent": "priority",
       "examples": [
         "We have a plan to reduce the costs ",
@@ -75,7 +75,7 @@
     },
     "epistemic": {
       "description": "Assessment that an event is true or false based on our state of knowledge. Includes beliefs, speculations, deductions etc. (that are phrased as such).",
-      "in_paper": "State of Knowledge",
+      "label": "knowledge",
       "parent": "plausibility",
       "examples": [
         "I heard she got married.",
@@ -87,7 +87,7 @@
     },
     "circumstantial": {
       "description": "Based on what is objectively probable due to facts about the world. That is, the realisation of the event depends on certain conditions or circumstances (x *may* happen if y happens).",
-      "in_paper": "State of the World",
+      "label": "world",
       "parent": "plausibility",
       "examples": [
         "The disease can be contracted if a person is bitten",
@@ -97,7 +97,7 @@
     },
     "dynamic": {
       "description": "Based on inherent (physical) abilities of an agent.",
-      "in_paper": "State of the Agent",
+      "label": "agent",
       "parent": "plausibility",
       "examples": [
         "She was unable to reach the ceiling.",
