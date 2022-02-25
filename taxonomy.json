@@ -1,0 +1,109 @@
+{
+  "binary_classification": {
+    "modal": {
+      "description": "Modality is the linguistic ability to describe alternative ways the world could be, namely events with added information such as how desirable, plausible, or feasible they are.",
+      "label": "modal",
+      "parent": null,
+      "examples": [
+        "We ought to present a paper at ACL’21.",
+        "We are likely to present a paper at ACL’21."
+      ]
+    },
+    "not_modal": {
+      "description": "Events that one can tell (for sure) by the utterance if they happen(ed) or not.",
+      "label": "O",
+      "parent": null,
+      "examples": [
+        "We presented a paper at ACL’19",
+        "We did not present a paper at ACL’20."
+      ]
+    }
+  },
+  "coarse_grained": {
+    "priority": {
+      "description": "Priority marks a perspective where events are prioritized, or considered “good” by the speaker (or more generally, by a relevant attitude holder) (Portner, 2009). ",
+      "label": "priority",
+      "parent": "modal",
+      "examples": [
+        "Devaluation has been necessary",
+        "We should remain calm",
+        "Our agency seriously needs equipment",
+        "a plan to reduce carbon-dioxide emissions"
+      ]
+    },
+    "plausibility": {
+      "description": "Plausibility has to do with events that are expected to happen or not happen, given a relevant set of assumptions which are made explicit.",
+      "label": "plausibility",
+      "parent": "modal",
+      "examples": [
+        "there is little I can do",
+        "powers that enable him to defend the rights",
+        "their incapacity to put crime under control"
+      ]
+    }
+  },
+  "fine_grained": {
+    "deontic": {
+      "description": "Events that are normatively obliged or commendable.",
+      "label": "rules",
+      "parent": "priority",
+      "examples": [
+        "We should remain calm",
+        "the ballot must be held by the end of March",
+        "You shouldn’t drink and drive"
+      ]
+    },
+    "bouletic": {
+      "description": "Events that are desirable, as a matter of personal taste or preference.",
+      "label": "intentional",
+      "parent": "priority",
+      "examples": [
+        "Our agency prefers this equipment",
+        "She hopefully will reach the ceiling",
+        "we do support certain limitations on the villains",
+        "I will preferably meet them over lunch"
+      ]
+    },
+    "teleological": {
+      "description": "Events that convey a goal or intentions.",
+      "label": "intentional",
+      "parent": "priority",
+      "examples": [
+        "We have a plan to reduce the costs ",
+        "We aim to present a paper at ACL’21"
+      ]
+    },
+    "epistemic": {
+      "description": "Assessment that an event is true or false based on our state of knowledge. Includes beliefs, speculations, deductions etc. (that are phrased as such).",
+      "label": "knowledge",
+      "parent": "plausibility",
+      "examples": [
+        "I heard she got married.",
+        "Marx is probably patriotic",
+        " She was reported to reach the ceiling",
+        "The ship is believed to carry illegal immigrants",
+        "The presence of urothelial thickening and mild dilatation of the left ureter suggest that the patient may have continued vesicoureteral reflux"
+      ]
+    },
+    "circumstantial": {
+      "description": "Based on what is objectively probable due to facts about the world. That is, the realisation of the event depends on certain conditions or circumstances (x *may* happen if y happens).",
+      "label": "world",
+      "parent": "plausibility",
+      "examples": [
+        "The disease can be contracted if a person is bitten",
+        "Symptoms may include fever, cough or itches",
+        "The ice cream will definitely melt (in the sun)"
+      ]
+    },
+    "dynamic": {
+      "description": "Based on inherent (physical) abilities of an agent.",
+      "label": "agent",
+      "parent": "plausibility",
+      "examples": [
+        "She was unable to reach the ceiling.",
+        "They are able to do whatever they want.",
+        "I can easily swim 10 km."
+      ]
+    }
+  }
+}
