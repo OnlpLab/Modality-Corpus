@@ -1,7 +1,7 @@
 # Modality-Corpus
-This repository contains the data used to evaluate the event-based modality task proposed by Pyatkin et al. (2021).
+This repository contains the data used to evaluate the event-based modality task proposed by [Pyatkin et al. (2021)](https://aclanthology.org/2021.acl-long.77).
 
-We use the Georgetown Gradable Modal Expressions Corpus (GME) as described by [Rubinstein et al. (2013)](https://www.aclweb.org/anthology/W13-0306.pdf). The corpus is available for search through the [ANNIS interface](http://corpling.uis.georgetown.edu/annis/) (please contact Prof. Paul Portner at Paul.Portner@georgetown.edu for access).
+We use the Georgetown Gradable Modal Expressions Corpus (GME) as described by [Rubinstein et al. (2013)](https://www.aclweb.org/anthology/W13-0306). The corpus is available for search through the [ANNIS interface](http://corpling.uis.georgetown.edu/annis/) (please contact Prof. Paul Portner at Paul.Portner@georgetown.edu for access).
 
 The GME Corpus was obtained by expert annotation of the documents included in the MPQA Opinion Corpus ([Wiebe et al., 2005](https://link.springer.com/article/10.1007/s10579-005-7880-9)).
 Prior to downloading our data, you are required to first obtain access to the MPQA Corpus at https://mpqa.cs.pitt.edu/corpora/mpqa_corpus/ 
@@ -16,10 +16,21 @@ Our experiments used a subset of the GME annotations (specifically: modal trigge
 
 ## Citation Information
 ```
-@InProceedings{pyatkin2021modality,
-  author    = {Pyatkin, Valentina and Sadde, Shoval and Rubinstein, Aynat and Portner, Paul and Tsarfaty, Reut},
-  title     = {The Possible, the Plausible, and the Desirable: Event-Based Modality Detection for Language Processing},
-  year      = {2021},
+@inproceedings{pyatkin-etal-2021-possible,
+    title = "The Possible, the Plausible, and the Desirable: Event-Based Modality Detection for Language Processing",
+    author = "Pyatkin, Valentina  and
+      Sadde, Shoval  and
+      Rubinstein, Aynat  and
+      Portner, Paul  and
+      Tsarfaty, Reut",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.77",
+    doi = "10.18653/v1/2021.acl-long.77",
+    pages = "953--965"
 }
 ```
 and 
